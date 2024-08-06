@@ -6,7 +6,8 @@ function App() {
 
 	const addValue = () => {
 		if(count < 10)
-		setCount(count + 1);
+		setCount((prevCounter) => prevCounter + 1)
+		setCount((prevCounter) => prevCounter + 1)
 	};
 
 	const removeValue = () => {
